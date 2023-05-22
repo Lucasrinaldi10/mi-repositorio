@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
+}
+
+header{
+    background-color: rosybrown;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link{
+color: white;
+text-decoration: none;
+}
+
+.Inicio{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 70px;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 30px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-style: italic;
+
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+    
+}
+
+.nav-menu-link:hover{
+    background-color:lightcoral;
+    transition: 0.7s;
+}
+
+.h1{
+justify-content: center ;
+margin-top: 100px;
+color: coral;
+font-weight: 1000;
+font-size: 200px;
+text-align: center;
+font-style: oblique;
+}
+
+body{
+    background-color: #d8bfd8;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-acuarela_220290-34.jpg);
+    font-family: sans-serif;
+    padding: 90px 5px 0;
+    min-width: 250px;
+}
+
+
+p{
+    color: black;
+    font-size: large;
+}
+
+.img-1-2-3{
+display: flex;
+justify-content: space-between;
+flex-flow: row wrap;
+}
+
+.img-4{
+width: 1000px;
+height: 400px;
+margin-left: 200px;
+}
+
+.img-5{
+    margin-left: auto;
+}
+
+.img-6{
+    margin-left: 250px;
+}
+
+.img-7{
+    margin-left: 240px;
+}
+
+.img-8{
+    margin-left: auto;
+}
+
+.img-9{
+    margin-left: 250px;
+}
+
+.img-10{
+    margin-left: 240px;
+}
+
+.mapa{
+    margin-top: 250;
+}
+
+.env{
+     margin-left: 600px;
+}
+
+.video-contacto{
+    margin-left: 250px;
+}
+
+.env{
+    display: inline-block;
+    margin-left: 250px;
+    
+}
+
+.met{
+    display: inline-block;
+    margin-left: 400px;
+}
+
+.wapbotom{
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 70px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+
+}
+
+.wapbotom:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.boton{
+    width: 50px;
+}
